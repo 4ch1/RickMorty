@@ -1,0 +1,23 @@
+.main-title {
+  font-size: 4rem;
+  text-align: center;
+  margin: 1em 0 .75em 0;
+  background: -webkit-linear-gradient(-90deg, #262A98, #71ABC1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 7.75rem);
+  padding: 1rem 0 3rem 0;
+  overflow: scroll;
+}
+
+
+

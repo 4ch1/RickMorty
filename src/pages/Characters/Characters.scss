@@ -1,0 +1,28 @@
+.characters {
+  display: flex;
+  width: 40%;
+  height: 250px;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  background: rgba(100, 150, 170, 0.2);
+  & img {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+.character-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem 3rem;
+  width: 60%;
+  color: darkgreen;
+  letter-spacing: 1px;
+  & h3 {
+    font-size: 1.5rem;
+  }
+  & p {
+    font-size: 1.5rem;
+  }
+}
